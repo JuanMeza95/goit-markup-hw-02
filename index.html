@@ -4,35 +4,53 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!--enlace scc-->
+    <link rel="stylesheet" href="styles.css" />
     <title>STUDIO</title>
   </head>
   <body>
     <!--header without css-->
-    <header>
-      <a href="./index.html">WEB STUDIO</a>
+    <header class="header-container">
+      <a href="./index.html" class="logo">WebStudio</a>
       <nav>
-        <ul>
-          <li><a href="#Estudio">Estudio</a></li>
-          <li><a href="#Portafolio">Portafolio</a></li>
+        <ul class="menu">
+          <li><a href="index.html">Estudio</a></li>
+          <li><a href="portafolio.html">Portafolio</a></li>
           <li><a href="#footer">Contactos</a></li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="tel:+525555296000"> +52 55 5529 6000</a></li>
-        <li><a href="mailto:info@devstudio.com"> info@devstudio.com</a></li>
+      <ul class="contacto">
+        <li><a href="tel:+525555296000"> &#9990;+52 55 5529 6000</a></li>
+        <li>
+          <a href="mailto:info@devstudio.com"> &#9993;info@devstudio.com</a>
+        </li>
       </ul>
     </header>
     <main>
       <!--firstsection-->
-      <section id="Estudio">
-        <h1>SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
-        <button type="button">Solicite nuestro servicio</button>
+      <section class="hero">
+        <h1>SOLUCIONES EFICACES PARA </br> SU NEGOCIO</h1>
+        <button type="button" class="boton1">Solicite nuestro servicio</button>
       </section>
 
       <!--secondsection-->
-      <section id="Portafolio">
+      <section id="list1">
         <h2 hidden>Beneficios de nuestros servicios</h2>
-        <ul>
+        <ul class="list-services">
+          <div class="list-serv">
           <li>
             <h3>ATENCIÓN A LOS DETALLES</h3>
             <p>
@@ -40,6 +58,8 @@
               para así desarrollar una solución a su medida.
             </p>
           </li>
+          </div>
+          <div class="list-serv">
           <li>
             <h3>PUNTUALIDAD</h3>
             <p>
@@ -48,6 +68,8 @@
               los plazos acordados.
             </p>
           </li>
+          </div>
+          <div class="list-serv">
           <li>
             <h3>PLANIFICACIÓN</h3>
             <p>
@@ -55,6 +77,8 @@
               aplicación de soluciones.
             </p>
           </li>
+          </div>
+          <div class="list-serv">
           <li>
             <h3>TEGNOLOGÍA MODERNA</h3>
             <p>
@@ -62,13 +86,15 @@
               asignadas. Es hora de simplificar los procesos laborales.
             </p>
           </li>
+          </div>
         </ul>
       </section>
 
       <!--thirdsection-->
-      <section>
-        <h2>A que nos dedicamos</h2>
-        <ul>
+     
+      <section class="listimg">
+        <h2>A qué nos dedicamos</h2>
+        <ul class="listimages">
           <li>
             <img src="images/img1.jpg" alt="Imagen1" width="373" height="323" />
           </li>
@@ -92,58 +118,91 @@
       </section>
 
       <!--fourthsection-->
-      <section>
+      
+      <section class="team">
         <h2>Nuestro equipo</h2>
-        <ul>
-          <li>
-            <img src="images/img4.jpg" alt="Imagen4" width="270" height="260" />
-            <h3>Andrés Cubo</h3>
-            <p>Diseñador de Productos</p>
-          </li>
-          <li>
-            <img
-              src="images/img5.jpg"
-              alt="Imagen 5"
-              width="270"
-              height="260"
-            />
-            <h4>Carla Palacios</h4>
-            <p>Desarrolladora Frontend</p>
-          </li>
-          <li>
-            <img
-              src="images/img6.jpg"
-              alt="Imagen 6"
-              width="270"
-              height="260"
-            />
-            <h4>Mario Dorado</h4>
-            <p>Marketing</p>
-          </li>
-          <li>
-            <img src="images/img7.jpg" alt="Imagen7" width="270" height="260" />
-            <h4>Pablo Mijangos</h4>
-            <p>Diseñador IU</p>
-          </li>
+         <ul class="listteam">
+          <div class="card">
+            <li>
+              <img
+                src="images/img4.jpg"
+                alt="Imagen4"
+                width="270"
+                height="260"
+              />
+              <h4>Andrés Cubo</h4>
+              <h5 class="content">Diseñador de Productos</h5>
+            </li>
+          </div>
+          <div class="card">
+            <li>
+              <img
+                src="images/img5.jpg"
+                alt="Imagen 5"
+                width="270"
+                height="260"
+              />
+              <h4>Carla Palacios</h4>
+              <h5 class="content">Desarrolladora Frontend</h5>
+            </li>
+          </div>
+          <div class="card">
+            <li>
+              <img
+                src="images/img6.jpg"
+                alt="Imagen 6"
+                width="270"
+                height="260"
+              />
+              <h4>Mario Dorado</h4>
+              <h5 class="content">Marketing</h5>
+            </li>
+          </div>
+          <div class="card">
+            <li>
+              <img
+                src="images/img7.jpg"
+                alt="Imagen7"
+                width="270"
+                height="260"
+              />
+              <h4>Pablo Mijangos</h4>
+              <h5 class="content">Diseñador IU</h5>
+            </li>
+          </div>
         </ul>
       </section>
     </main>
 
     <!--footer-->
-    <footer id="footer">
-      <a href="./index.html">WEB STUDIO</a>
+    <footer class="footer">
+      <div class="cardfooter">
+      <a href="./index.html" class="logo">WebStudio</a>
       <address>
-        <a
-          href="https://goo.gl/maps/ngCgHBpQpBZ551xf8"
-          target="_blank"
-          rel="noopener noreferrer"
-          >Calz. Ticomán 500, Ciudad de México, CDMX, México</a
-        >
-        <ul>
-          <li><a href="mailto:info@devstudio.com"> info@devstudio.com</a></li>
-          <li><a href="tel:+525555296000"> +52 55 5529 6000</a></li>
+        <ul class="contactlist">
+          <li>
+            <a
+              href="https://goo.gl/maps/ngCgHBpQpBZ551xf8"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="city"
+              >Calz. Ticomán 500, Ciudad de México, CDMX, México</a
+            >
+          </li>
+
+          <li>
+            <a href="mailto:info@devstudio.com" class="mail-cel">
+              &#9993;info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:+525555296000" class="mail-cel">
+              &#9990;+52 55 5529 6000</a
+            >
+          </li>
         </ul>
       </address>
+      </div>
     </footer>
   </body>
 </html>
