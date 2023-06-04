@@ -42,7 +42,6 @@ h4 {
     font-style: normal;
     line-height: 19px;
     letter-spacing: 0.03em;
-    text-align: center;
     color: #212121;
     text-transform: capitalize;
 }
@@ -53,7 +52,6 @@ h5 {
     font-style: normal;
     line-height: 19px;
     letter-spacing: 0.03em;
-    text-align: center;
     color: #757575;
 }
 
@@ -72,24 +70,9 @@ ul {
 }
 
 /*header*/
-.header-container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
 
-.menu {
-    display: flex;
-}
 
-.contacto {
-    display: flex;
-}
 
-.menu li,
-.contacto li {
-    margin-right: 50px;
-}
 
 .logo {
     font-family: 'Raleway';
@@ -100,6 +83,10 @@ ul {
     text-align: right;
     letter-spacing: 0.03em;
     color: #2196F3;
+}
+
+.web {
+    color: #212121;
 }
 
 
@@ -117,16 +104,22 @@ header a:focus {
     color: #2196F3;
 }
 
+header .contacto .mail-cel {
+    color: #757575;
+    text-decoration: none;
+    font-style: normal;
+}
+
+header .mail-cel:hover {
+    color: #2196F3;
+}
+
 /*herp*/
 .hero {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
+
     color: white;
     background-color: #2F303A;
-    height: 50vb;
+
 }
 
 
@@ -151,49 +144,33 @@ button:hover {
     color: white;
 }
 
-#list1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
 
-}
 
-.list-services {
-    display: flex;
-    justify-content: space-between;
-    align-items: normal;
 
-}
 
 .list-serv {
-    display: flex;
+
     border: 1px solid white;
     padding: 10px;
     margin: 10px;
     background-color: white;
-    max-width: 210px;
-    margin-right: 30px;
+
 
 }
 
 .list-serv li {
-    margin-top: 94px;
+
     cursor: pointer;
 }
 
 .list-serv .listimg {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
     margin-bottom: 94px;
 
 }
 
 .listimages {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
     margin-bottom: 94px;
 
 }
@@ -202,19 +179,14 @@ button:hover {
     margin-bottom: 55px;
 }
 
-.listimages li {
-    margin-right: 30px;
-    justify-content: center;
-    align-items: normal;
 
-}
+
+
 
 .team {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
     background-color: #F5F4FA;
-    flex-direction: column;
+
 
 
 }
@@ -224,23 +196,12 @@ button:hover {
     margin-top: 94px;
 }
 
-.listteam {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 0px 0px 4px 4px;
-    max-width: 270px;
-    margin-bottom: 94px;
 
-
-}
 
 .listteam li {
     margin-right: 37px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    margin: 30px;
     cursor: pointer;
 
 }
@@ -250,15 +211,15 @@ button:hover {
     margin: 0;
 }
 
+.listteam li:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 /*footer*/
 
 footer {
     background-color: #2F303A;
-    display: flex;
-    height: 252px;
-    align-items: left;
-    justify-content: center;
-    flex-direction: column;
+
 }
 
 .footer .logo {
