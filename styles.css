@@ -71,6 +71,7 @@ ul {
     list-style: none;
 }
 
+/*header*/
 .header-container {
     display: flex;
     justify-content: space-around;
@@ -116,6 +117,7 @@ header a:focus {
     color: #2196F3;
 }
 
+/*herp*/
 .hero {
     display: flex;
     align-items: center;

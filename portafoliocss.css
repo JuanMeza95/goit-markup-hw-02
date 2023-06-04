@@ -1,0 +1,180 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+h4 {
+    font-weight: 700;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    color: #212121;
+    text-transform: capitalize;
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #757575;
+    text-align: left;
+}
+
+ul {
+    list-style: none;
+
+}
+
+/*header*/
+.header-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+}
+
+.contacto {
+    display: flex;
+}
+
+.menu li,
+.contacto li {
+    margin-right: 50px;
+}
+
+.logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    text-align: right;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+
+header a {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.41px;
+    letter-spacing: 2%;
+    text-decoration: none;
+    color: #212121;
+}
+
+header a:hover,
+header a:focus {
+    color: #2196F3;
+}
+
+/*botones*/
+
+
+button {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 3%;
+    text-align: normal;
+    padding: 6px 24px 10px 6px;
+    width: 145px;
+    height: 38px;
+    gap: 10px;
+    border-radius: 4px;
+    background-color: #f5f4fa;
+    color: #212121;
+    cursor: pointer;
+    border: none;
+
+
+}
+
+button:hover {
+    color: white;
+    background-color: #2196F3;
+}
+
+#bottomlist {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.bottom-list {
+    display: flex;
+    justify-content: center;
+    margin-top: 112px;
+}
+
+.bottom-list li {
+    margin-right: 8px;
+    align-items: normal;
+    justify-content: center;
+
+}
+
+/*cartasmosaico*/
+#img-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cards {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    max-width: 370px;
+    margin-bottom: 82px;
+}
+
+.cards a {
+    text-decoration: none;
+}
+
+/*footer*/
+footer {
+    background-color: #2F303A;
+    display: flex;
+    height: 252px;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer .logo {
+    padding: 30px;
+    text-decoration: none;
+    color: #2196F3;
+}
+
+.footer .mail-cel {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-style: normal;
+
+}
+
+.footer .city {
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: none;
+
+
+}
