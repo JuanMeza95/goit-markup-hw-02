@@ -7,7 +7,7 @@ h4 {
     font-weight: 700;
     font-size: 18px;
     font-style: normal;
-    line-height: 36px;
+    line-height: 3.3;
     letter-spacing: 0.06em;
     text-align: left;
     color: #212121;
@@ -18,7 +18,7 @@ p {
     font-weight: 400;
     font-size: 16px;
     font-style: normal;
-    line-height: 30px;
+    line-height: 3;
     letter-spacing: 0.03em;
     color: #757575;
     text-align: left;
@@ -37,7 +37,7 @@ ul {
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 3;
     text-align: right;
     letter-spacing: 0.03em;
     color: #2196F3;
@@ -54,7 +54,7 @@ ul {
 header a {
     font-size: 14px;
     font-weight: 500;
-    line-height: 16.41px;
+    line-height: 1;
     letter-spacing: 2%;
     text-decoration: none;
     color: #212121;
@@ -81,7 +81,7 @@ header .mail-cel:hover {
 button {
     font-size: 16px;
     font-weight: 500;
-    line-height: 26px;
+    line-height: 1.5;
     letter-spacing: 3%;
     padding: 6px 24px 10px 6px;
     border-radius: 4px;
@@ -105,26 +105,16 @@ button:hover {
     text-decoration: none;
 }
 
-.cards li:hover {
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-}
 
 
 
 /*footer*/
 footer {
     background-color: #2F303A;
-    display: flex;
-    align-items: left;
-    justify-content: center;
-    flex-direction: column;
+
 }
 
-.footer .logo {
-    padding: 30px;
-    text-decoration: none;
-    color: #2196F3;
-}
+
 
 .footer .mail-cel {
     color: rgba(255, 255, 255, 0.6);
